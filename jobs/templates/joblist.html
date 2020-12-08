@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load i18n %}
+   {% block content %}
+   
+       {% if job_list %}
+           <table class="table">
+              <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">{% trans '职位类别' %}</th>
+                      <th scope="col">{% trans '职位名称' %}</th>
+                      <th scope="col">{% trans '工作地点' %}</th>
+                  </tr>
+              </thead>
+              {% for job in job_list %}
+              <tbody>
+                <tr>
+                  <th scope="row">{{ job.id }}</th>
+                  <td>{{ job.type_name }}</td>
+                  <td><a href="/job/{{ job.id }}/" style="color:blue">{{ job.job_name }}</a></td>
+                  <td>{{job.city_name}}</td>
+                </tr>
+              </tbody>
+              {% endfor %}
+           </table>
+       {% else %}
+           <p>No jobs are available.</p>
+       {% endif %}
+   
+   {% endblock %}

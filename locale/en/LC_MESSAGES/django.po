@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 19:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\jobs\models.py:9
+msgid "技术类"
+msgstr ""
+
+#: .\jobs\models.py:10
+msgid "产品类"
+msgstr ""
+
+#: .\jobs\models.py:11
+msgid "运营类"
+msgstr ""
+
+#: .\jobs\models.py:12
+msgid "设计类"
+msgstr ""
+
+#: .\jobs\models.py:13
+msgid "市场营销类"
+msgstr ""
+
+#: .\jobs\models.py:17
+msgid "北京"
+msgstr ""
+
+#: .\jobs\models.py:18
+msgid "上海"
+msgstr ""
+
+#: .\jobs\models.py:19
+msgid "深圳"
+msgstr ""
+
+#: .\jobs\models.py:20
+msgid "杭州"
+msgstr ""
+
+#: .\jobs\models.py:21
+msgid "广州"
+msgstr ""
+
+#: .\jobs\models.py:26
+msgid "本科"
+msgstr ""
+
+#: .\jobs\models.py:27
+msgid "硕士"
+msgstr ""
+
+#: .\jobs\models.py:28
+msgid "博士"
+msgstr ""
+
+#: .\jobs\models.py:35 .\jobs\templates\joblist.html:10
+msgid "职位类别"
+msgstr ""
+
+#: .\jobs\models.py:36 .\jobs\templates\joblist.html:11
+msgid "职位名称"
+msgstr ""
+
+#: .\jobs\models.py:37 .\jobs\templates\joblist.html:12
+msgid "工作地点"
+msgstr ""
+
+#: .\jobs\models.py:38
+msgid "职位职责"
+msgstr ""
+
+#: .\jobs\models.py:39
+msgid "职位要求"
+msgstr ""
+
+#: .\jobs\models.py:40
+msgid "创建人"
+msgstr ""
+
+#: .\jobs\models.py:41 .\jobs\models.py:65
+msgid "创建日期"
+msgstr ""
+
+#: .\jobs\models.py:42 .\jobs\models.py:66
+msgid "修改日期"
+msgstr ""
+
+#: .\jobs\models.py:45
+msgid "职位"
+msgstr ""
+
+#: .\jobs\models.py:50 .\jobs\templates\resume_detail.html:14
+msgid "姓名"
+msgstr ""
+
+#: .\jobs\models.py:51
+msgid "申请人"
+msgstr ""
+
+#: .\jobs\models.py:52 .\jobs\templates\jobdetail.html:10
+#: .\jobs\templates\resume_detail.html:15
+msgid "城市"
+msgstr ""
+
+#: .\jobs\models.py:53 .\jobs\templates\resume_detail.html:16
+msgid "手机号码"
+msgstr ""
+
+#: .\jobs\models.py:54
+msgid "邮箱"
+msgstr ""
+
+#: .\jobs\models.py:55
+msgid "应聘职位"
+msgstr ""
+
+#: .\jobs\models.py:56
+msgid "生源地"
+msgstr ""
+
+#: .\jobs\models.py:57 .\jobs\templates\resume_detail.html:22
+msgid "性别"
+msgstr ""
+
+#: .\jobs\models.py:60 .\jobs\templates\resume_detail.html:25
+msgid "本科学校"
+msgstr ""
+
+#: .\jobs\models.py:61
+msgid "研究生学校"
+msgstr ""
+
+#: .\jobs\models.py:62
+msgid "博士生学校"
+msgstr ""
+
+#: .\jobs\models.py:63 .\jobs\templates\resume_detail.html:27
+msgid "专业"
+msgstr ""
+
+#: .\jobs\models.py:64 .\jobs\templates\resume_detail.html:28
+msgid "学历"
+msgstr ""
+
+#: .\jobs\models.py:69
+msgid "自我介绍"
+msgstr ""
+
+#: .\jobs\models.py:70 .\jobs\templates\resume_detail.html:32
+msgid "工作经历"
+msgstr ""
+
+#: .\jobs\models.py:71 .\jobs\templates\resume_detail.html:33
+msgid "项目经历"
+msgstr ""
+
+#: .\jobs\models.py:74
+msgid "简历"
+msgstr ""
+
+#: .\jobs\models.py:75
+msgid "简历列表"
+msgstr ""
+
+#: .\jobs\templates\base.html:7
+msgid "XX公司招聘职位"
+msgstr "Baidu Teconolegy Job List"
+
+#: .\jobs\templates\base.html:10
+msgid "退出"
+msgstr "logout"
+
+#: .\jobs\templates\base.html:13
+msgid "登录"
+msgstr "login"
+
+#: .\jobs\templates\jobdetail.html:5
+msgid "返回列表页"
+msgstr ""
+
+#: .\jobs\templates\jobdetail.html:8
+msgid "岗位名称"
+msgstr ""
+
+#: .\jobs\templates\jobdetail.html:15
+msgid "岗位职责"
+msgstr ""
+
+#: .\jobs\templates\jobdetail.html:22
+msgid "任职要求"
+msgstr ""
+
+#: .\jobs\templates\jobdetail.html:31
+msgid "职位不存在"
+msgstr ""
+
+#: .\jobs\templates\resume_detail.html:12
+msgid "简历详细信息"
+msgstr ""
+
+#: .\jobs\templates\resume_detail.html:19
+msgid "邮件地址"
+msgstr ""
+
+#: .\jobs\templates\resume_detail.html:20 .\jobs\templates\resume_form.html:16
+msgid "申请职位"
+msgstr ""
+
+#: .\jobs\templates\resume_detail.html:21
+msgid "出生地"
+msgstr ""
+
+#: .\jobs\templates\resume_detail.html:26
+msgid "研究所学校"
+msgstr ""
+
+#: .\jobs\templates\resume_detail.html:31
+msgid "候选人介绍"
+msgstr ""
+
+#: .\recruitment01\urls.py:16
+msgid "北京网络科技招聘管理系统"
+msgstr ""
+
+#: .\settings\base.py:119
+msgid "Chinese"
+msgstr ""
+
+#: .\settings\base.py:120
+msgid "English"
+msgstr ""

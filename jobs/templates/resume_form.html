@@ -1,0 +1,32 @@
+{#<form action="" method="post">#}
+{#    {% csrf_token %}#}
+{#    {{ form.as_p }}#}
+{#    会根据view传过来的字段生成html页面   #}
+{#    <input type="submit" value="提交">#}
+{#</form>#}
+{% load i18n %}
+
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{% bootstrap_messages %}
+
+<div class="container">
+    <h2>{% trans '申请职位' %}</h2>
+    <form method="post" class="form" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% buttons %}
+            <button type="submit" class="btn btn-primary">
+                Submit
+            </button>
+        {% endbuttons %}
+    </form>
+</div>
+
+
+
+
+
+

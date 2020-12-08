@@ -1,0 +1,39 @@
+{% extends 'bootstrap4/bootstrap4.html' %}
+{% load bootstrap4 %}
+
+{% load i18n %}
+{% block bootstrap4_content %}
+    <div class="container">
+        <h1>{% trans 'XX公司招聘职位' %}</h1>
+        {% if request.user.is_authenticated %}
+            <p>{{ user.username }}</p>
+            <li><a href="/accounts/logout/">{% trans '退出' %}</a></li>
+        {% else %}
+            <ul>
+                <li><a href="/accounts/login/">{% trans '登录' %}</a></li>
+            </ul>
+        {% endif %}
+        {% block content %}
+
+        {% endblock %}
+        {% autoescape off %}{{ bootstrap_messages }}{% endautoescape %}
+    </div>
+
+{% endblock %}
+
+
+<form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+    <input name="next" type="hidden" value="{{ redirect_to }}">
+    <select name="language">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+            </option>
+        {% endfor %}
+    </select>
+    {% trans "language:" %} {{ LANGUAGE_CODE }}
+    <input type="submit" value={% trans "Switch" %}>
+</form>
